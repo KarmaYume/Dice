@@ -13,6 +13,6 @@ class ExampleUnitTest {
    fun generates_number() {
        val dice = Dice(6)
        val output = dice.roll()
-       assertTrue("The number is not in between 1 and 6" , output in 1..6)
+       assertTrue("The number is not in between 1 and 6 " , output in 1..6)
    }
 }
